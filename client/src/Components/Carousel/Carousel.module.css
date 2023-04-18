@@ -1,0 +1,17 @@
+.container {
+  position: relative;
+}
+.carouse {
+  height: 100%;
+}
+@media screen and (min-width: 80rem) {
+  img{
+    height: 900px
+  }
+}
+@media screen and (max-width: 1300px) {
+  img{
+    display: flex;
+    max-height: 620px;
+  }
+}

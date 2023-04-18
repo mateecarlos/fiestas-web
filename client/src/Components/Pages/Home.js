@@ -1,12 +1,27 @@
 import React from "react";
-
+import Carousell from "../Carousel/Carousel";
+import styles from "./Home.module.css";
 const Home = () => {
   return (
-    <div>
-      <h1>ESTO ES HOME</h1>
-
-    </div>
-   
+    <>
+      <Carousell />
+      <div className={styles.letter}>
+        <span className={styles.spanto}>AVENTURINA</span>
+      </div>
+      <div>
+        <h1>Catalogo</h1>
+      </div>
+      <div>
+        <h1>Catalogo</h1>
+      </div>
+      <div>
+        <h1>Catalogo</h1>
+      </div>
+      <div>
+        <h1>Catalogo</h1>
+      </div>
+      
+    </>
   );
 };
 

@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
-import HomePage from "./Components/HomePage/HomePage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Salon from "./Components/Pages/Salon";
 import About from "./Components/Pages/About";
@@ -23,7 +22,6 @@ function App() {
     </Router>
   );
 }
-<Route exact path="/" element={<HomePage />} />
 export default App;
 
 // const [backendData, setBackendData] = useState([{}]);
