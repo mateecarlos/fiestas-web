@@ -1,3 +1,3 @@
 export default function Contact() {
-    return "Hello Mundo"
+    return "HOLA MUNDO LOCO"
 }
