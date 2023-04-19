@@ -10,7 +10,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap");
 
 body {
-	background-color: #ffbbdd;
+	background-color: #6c95e3;
   font-family: "Raleway", sans-serif;
 }
 .letter{
@@ -21,7 +21,7 @@ body {
   font-size: 120px;
   letter-spacing: 0.1em;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-width: 4px;
   -webkit-text-stroke-color: white;
-  text-shadow: 8px 8px #ff1f8f, 20px 20px #000000; 
+  text-shadow: 8px 8px #08125c, 20px 20px #000000; 
 }
