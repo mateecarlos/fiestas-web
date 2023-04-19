@@ -8,17 +8,14 @@ const Home = () => {
       <div className={styles.letter}>
         <span className={styles.spanto}>AVENTURINA</span>
       </div>
-      <div>
-        <h1>Catalogo</h1>
+      <div className={styles.titulo1}>
+        <h2>Salon de fiestas Infantiles y Eventos</h2>
       </div>
-      <div>
-        <h1>Catalogo</h1>
+      <div className={styles.titulo2}>
+        <h4>Te brindamos el mejor servicio para la fiesta que siempre soñaste</h4>
       </div>
-      <div>
-        <h1>Catalogo</h1>
-      </div>
-      <div>
-        <h1>Pepito</h1>
+      <div className={styles.titulo3}>
+        <h4>Montevideo - Uruguay</h4>
       </div>
       
     </>

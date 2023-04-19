@@ -25,3 +25,13 @@ body {
   -webkit-text-stroke-color: white;
   text-shadow: 8px 8px #08125c, 20px 20px #000000; 
 }
+.titulo1{
+  text-align: center;
+  color: black;
+}
+.titulo2{
+  text-align: center;
+}
+.titulo3{
+  text-align: center;
+}

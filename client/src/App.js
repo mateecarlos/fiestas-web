@@ -2,11 +2,12 @@ import React from "react";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Salon from "./Components/Pages/Salon";
-import About from "./Components/Pages/About";
-import Blog from "./Components/Pages/Blog";
+import Nosotros from "./Components/Pages/Nosotros";
+import Gastronomia from "./Components/Pages/Gastronomia";
 import Contact from "./Components/Pages/Contact";
 import NavBar from "./Components/NavBar/navBar";
 import Home from "./Components/Pages/Home";
+import Menus from "./Components/Pages/Menus";
 
 function App() {
   return (
@@ -14,10 +15,11 @@ function App() {
       <NavBar />
       <Routes>
         <Route exact path="/" element={<Home/>} />
-        <Route path="/about" element={<About/>} />
+        <Route path="/nosotros" element={<Nosotros/>} />
         <Route path="/Salon" element={<Salon/>} />
-        <Route path="/blog" element={<Blog/>} />
+        <Route path="/gastronomia" element={<Gastronomia/>} />
         <Route path="/contact" element={<Contact/>} />
+        <Route path="/menus" element={<Menus/>} />
       </Routes>
     </Router>
   );

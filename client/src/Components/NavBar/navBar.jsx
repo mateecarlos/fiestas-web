@@ -132,8 +132,8 @@ function NavBar() {
             </ItemLink>
           </li>
           <li>
-            <ItemLink onClick={handleClick} to="/about">
-              About
+            <ItemLink onClick={handleClick} to="/nosotros">
+              Nosotros
             </ItemLink>
           </li>
           <li>
@@ -142,8 +142,8 @@ function NavBar() {
             </ItemLink>
           </li>
           <li>
-            <ItemLink onClick={handleClick} to="/blog">
-              Blog
+            <ItemLink onClick={handleClick} to="/gastronomia">
+              Gastronomia
             </ItemLink>
           </li>
           <li>
