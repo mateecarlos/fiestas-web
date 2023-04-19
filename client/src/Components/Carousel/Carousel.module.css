@@ -4,9 +4,12 @@
 .carouse {
   height: 100%;
 }
+.but{
+  margin-bottom: 30%;
+}
 @media screen and (min-width: 80rem) {
   img{
-    height: 600px
+    height: 900px
   }
 }
 @media screen and (max-width: 1300px) {

@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 import styles from "./Carousel.module.css";
-
+import { Link } from "react-router-dom";
 const Carousell = () => {
   return (
     <>
@@ -15,8 +15,7 @@ const Carousell = () => {
                 alt="First slide"
               />
             </div>
-            <Carousel.Caption>
-            </Carousel.Caption>
+            <Carousel.Caption>BIENVENIDOS</Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={5000}>
             <div className={styles.caro}>
@@ -26,8 +25,8 @@ const Carousell = () => {
                 alt="Second slide"
               />
             </div>
-            <Carousel.Caption>
-            </Carousel.Caption>
+            <Carousel.Caption>BIENVENIDOS</Carousel.Caption>
+
           </Carousel.Item>
           <Carousel.Item interval={5000}>
             <div className={styles.caro}>
@@ -38,7 +37,11 @@ const Carousell = () => {
               />
             </div>
             <Carousel.Caption>
+             <Link to="/about">
+              <button className={styles.but}>BIENVENIDOS</button>
+             </Link>
             </Carousel.Caption>
+
           </Carousel.Item>
         </Carousel>
       </div>
